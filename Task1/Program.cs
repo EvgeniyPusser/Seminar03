@@ -5,14 +5,28 @@
 
 // for(int i = 0; i < arraySize; i++)
 // {
-//   array[i] = new Random().Next(0, 10);
+//   array[i] = new Random().Next(0, 101);
 // }
 //  for(int i = 0; i < arraySize; i++)
 //  {
-//    System.Console.Write(array[i]);
+//    System.Console.Write(array[i] + " ");
    
 //  }
 //  System.Console.Write("\n");
+
+System.Console.Write("Введите размер массива");
+int arraySize = Convert.ToInt32(Console.ReadLine());
+
+double []array = new double[arraySize];
+
+for(int i = 0; i < arraySize; i++){
+    array[i] = new Random().NextDouble();
+}
+for(int i = 0; i < arraySize; i++){
+    Console.Write(array[i]+ "\t");
+}
+
+
 
 
 // Задайте массив. Напишите программу, которая определяет,
@@ -186,8 +200,7 @@
 //     }
 // }
 
-int[]a = [];
-System.Console.Write(a);
+
 
 
 
