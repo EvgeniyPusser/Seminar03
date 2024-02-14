@@ -14,17 +14,21 @@
 //  }
 //  System.Console.Write("\n");
 
-System.Console.Write("Введите размер массива");
-int arraySize = Convert.ToInt32(Console.ReadLine());
+// System.Console.Write("Введите размер массива");
+// int arraySize = Convert.ToInt32(Console.ReadLine());
 
-double []array = new double[arraySize];
+// double []array = new double[arraySize];
 
-for(int i = 0; i < arraySize; i++){
-    array[i] = new Random().NextDouble();
-}
-for(int i = 0; i < arraySize; i++){
-    Console.Write(array[i]+ "\t");
-}
+// for(int i = 0; i < arraySize; i++){
+//     array[i] = new Random().NextDouble();
+// }
+// for(int i = 0; i < arraySize; i++){
+//     Console.Write(array[i] +"\t");
+//     Console.Write(Math.Round(array[i], 2) + "\t");
+//     //ToString("0.00" + "\t"));
+//     //Console.Write(array[i].ToString("0.000") + "\t");
+    
+// }
 
 
 
@@ -35,69 +39,69 @@ for(int i = 0; i < arraySize; i++){
 // Примеры
 // [1 3 4 19 3], 8 => Не
 
-// void Main()
-// {
-//     int arraySize = ReadInt("Введите количество чисел в массиве: ");
+//void Main()
+{
+    int arraySize = ReadInt("Введите количество чисел в массиве: ");
 
-//     int[] array = GenerateArray(arraySize, -9, 9);
-//     PrintArray(array);
+    int[] array = GenerateArray(arraySize, -9, 9);
+    PrintArray(array);
 
-//     int number = ReadInt("Введите искомое число: ");
+    int number = ReadInt("Введите искомое число: ");
 
-//     bool numberIsFinded = NumberIsExist(array, number);
+    bool numberIsFinded = NumberIsExist(array, number);
 
-//     if (numberIsFinded)
-//     {
-//         System.Console.WriteLine("Да");
-//     }
-//     else
-//     {
-//         System.Console.WriteLine("Нет");
-//     }
-// }
-
-
-// int ReadInt(string msg)
-// {
-//     System.Console.Write(msg);
-//     return Convert.ToInt32(Console.ReadLine());
-// }
+    if (numberIsFinded)
+    {
+        System.Console.WriteLine("Да");
+    }
+    else
+    {
+        System.Console.WriteLine("Нет");
+    }
+}
 
 
-// int[] GenerateArray(int size, int leftRange, int rightRange)
-// {
-//     int[] myArray = new int[size];
-
-//     for (int i = 0; i < myArray.Length; i++)
-//     {
-//         myArray[i] = new Random().Next(leftRange, rightRange + 1); // 0 до 10;
-//     }
-
-//     return myArray;
-// }
+int ReadInt(string msg)
+{
+    System.Console.Write(msg);
+    return Convert.ToInt32(Console.ReadLine());
+}
 
 
-// void PrintArray(int[] arrayForPrint)
-// {
-//     for (int i = 0; i < arrayForPrint.Length; i++)
-//     {
-//         System.Console.Write(arrayForPrint[i] + " ");
-//     }
-// }
+int[] GenerateArray(int size, int leftRange, int rightRange)
+{
+    int[] myArray = new int[size];
+
+    for (int i = 0; i < myArray.Length; i++)
+    {
+        myArray[i] = new Random().Next(leftRange, rightRange + 1); // 0 до 10;
+    }
+
+    return myArray;
+}
 
 
-// bool NumberIsExist(int[] myArray, int number)
-// {
-//     for (int i = 0; i < myArray.Length; i++)
-//     {
-//         if (myArray[i] == number)
-//         {
-//             return true;
-//         }
-//     }
+void PrintArray(int[] arrayForPrint)
+{
+    for (int i = 0; i < arrayForPrint.Length; i++)
+    {
+        System.Console.Write(arrayForPrint[i] + " ");
+    }
+}
 
-//     return false;
-// }
+
+bool NumberIsExist(int[] myArray, int number)
+{
+    for (int i = 0; i < myArray.Length; i++)
+    {
+        if (myArray[i] == number)
+        {
+            return true;
+        }
+    }
+
+    return false;
+}
 
 
 // Main();
