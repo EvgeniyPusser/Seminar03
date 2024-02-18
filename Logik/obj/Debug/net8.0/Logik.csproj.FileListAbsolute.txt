@@ -1,0 +1,15 @@
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\Logik.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\Logik.AssemblyInfoInputs.cache
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\Logik.AssemblyInfo.cs
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\Logik.csproj.CoreCompileInputs.cache
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\Logik.sourcelink.json
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\bin\Debug\net8.0\Logik.exe
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\bin\Debug\net8.0\Logik.deps.json
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\bin\Debug\net8.0\Logik.runtimeconfig.json
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\bin\Debug\net8.0\Logik.dll
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\bin\Debug\net8.0\Logik.pdb
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\Logik.dll
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\refint\Logik.dll
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\Logik.pdb
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\Logik.genruntimeconfig.cache
+D:\GeekBrain\Языки програмирования c#\Seminar03\Logik\obj\Debug\net8.0\ref\Logik.dll
