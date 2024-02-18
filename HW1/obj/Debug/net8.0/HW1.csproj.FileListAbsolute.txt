@@ -1,0 +1,5 @@
+D:\GeekBrain\Языки програмирования c#\Seminar03\HW1\obj\Debug\net8.0\HW1.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrain\Языки програмирования c#\Seminar03\HW1\obj\Debug\net8.0\HW1.AssemblyInfoInputs.cache
+D:\GeekBrain\Языки програмирования c#\Seminar03\HW1\obj\Debug\net8.0\HW1.AssemblyInfo.cs
+D:\GeekBrain\Языки програмирования c#\Seminar03\HW1\obj\Debug\net8.0\HW1.csproj.CoreCompileInputs.cache
+D:\GeekBrain\Языки програмирования c#\Seminar03\HW1\obj\Debug\net8.0\HW1.sourcelink.json
